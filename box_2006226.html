@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="description" content="Box Model">
+  <meta name="Box model" content="Padding, marging, Border">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2006225_ASSIGNMENT</title>
+<style>
+#box {
+
+ align-items: center;
+ text-align: center;
+ color: yellow;
+  background-color:rgb(0, 35, 66);
+  width: 500px;
+  border: 15px solid mediumseagreen;
+  padding: 35px;
+  margin: 15px;
+}
+#content{
+background-color:greenyellow;
+
+
+}
+#illustration{
+    display: flex;
+}
+.heading{
+    
+    color: green;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: greenyellow;
+    text-decoration: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+article{
+    font-family:serif;
+    color:rgb(6, 6, 56);
+    font-size:larger;
+}
+
+
+</style>
+</head>
+<body>
+   <p class="heading">The Box Model</p>
+<center><p>The CSS box model is a box that wraps around every HTML element. CSS determines the size, position, and properties of these boxes.</p> </center>
+<center><p>Every box is composed of four parts: the content edge, padding edge, border edge, and margin edge.</p> </center>
+<center><div id="box">This content is in a box with 35px padding, 15px margin and a 15px border.
+</div></center>
+<center><div id = "box">
+<img src="pic3.jpg" alt="picture" height="300px" width="500px">
+</div></center>
+<div id="content"><h5><center><font face="Tahoma" size="5" color="sky blue" bgcolor="green">Simple Illustration of Box Model</font></center></h5></div>
+<div id="illustration">
+<img src="box_model (1).png" height="300px" width=400px>
+<article>
+   
+     <p>The padding box surrounds the content box and is the space created by the padding property. Because padding is inside the box, the background of the box will be visible in the space that it creates. If our box has overflow rules set, such as overflow: auto or overflow: scroll, the scrollbars will occupy this space too.</p>
+     <p> border box surrounds the padding box and its space is occupied by the border value. The border box is the bounds of your box and the border edge is the limit of what you can visually see. The border property is used to visually frame an element.</p>
+     <p>The final area, the margin box, is the space around your box, defined by the margin rule on your box. Properties such as outline and box-shadow occupy this space too because they are painted on top, so they don't affect the size of our box.  </p>
+</article>
+</div>
+
+</body>
+</html>
